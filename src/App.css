@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  display: hidden;
+  background-color: #5c5c5c;
+  width: 10px;
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-button{
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #161515;
+  border-radius: 30px;
+}
